@@ -9,7 +9,12 @@ A tool that use github or gitee to release latest software.
 
 (2) The file rules is:
     release-file: `[file-name]-v[version-code].[suffix]`
+
+    such as: `TestApp-v2.3.apk`
+
     release-notes.txt: `[file-name]-v[version-code].txt`
+
+    such as: `TestApp-Notes-v2.3.txt`
 1. In JavaScript
 ```javascript
     // import the updater.js file
