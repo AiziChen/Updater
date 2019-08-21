@@ -4,9 +4,11 @@ A tool that use github or gitee to release latest software.
 
 ## The Rules
 
-1. Must contain all the release-file and the release-notes.txt
+1. Must to put it in the `root` directory.
 
-2. Release file rules is:
+2. Must contain all the release-file and the release-notes.txt
+
+3. Release file rules is:
 
     release-file: `[file-name]-v[version-code].[suffix]`
 
@@ -16,7 +18,7 @@ A tool that use github or gitee to release latest software.
 
     such as: `TestApp-Notes-v2.3.txt`
 
-3. Prameter rules is:
+4. Prameter rules is:
 
    `getUpdate/getUpdateGitee(ownerName, repositoryName, currentVersionCode)`
    
