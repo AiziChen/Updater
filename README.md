@@ -6,6 +6,7 @@ A tool that use github or gitee to release latest software.
 1. The Rules
 
 (1) Must contain all the release-file and the release-notes.txt
+
 (2) The file rules is:
     release-file: `[file-name]-v[version-code].[suffix]`
     release-notes.txt: `[file-name]-v[version-code].txt`
