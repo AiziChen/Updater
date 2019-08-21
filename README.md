@@ -7,6 +7,7 @@ A tool that use github or gitee to release latest software.
 1. Must contain all the release-file and the release-notes.txt
 
 2. Release file rules is:
+
     release-file: `[file-name]-v[version-code].[suffix]`
 
     such as: `TestApp-v2.3.apk`
@@ -16,11 +17,12 @@ A tool that use github or gitee to release latest software.
     such as: `TestApp-Notes-v2.3.txt`
 
 3. Prameter rules is:
-   getUpdate/getUpdateGitee(ownerName, repositoryName, currentVersionCod)
-   
-   such as: see the `To use them` below.
 
-## To use them
+   `getUpdate/getUpdateGitee(ownerName, repositoryName, currentVersionCode)`
+   
+   such as: see the `How to use them` below.
+
+## How to use them
 1. In JavaScript
 ```javascript
     // import the updater.js file
