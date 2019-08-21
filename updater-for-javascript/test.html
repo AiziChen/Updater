@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Updater Test</title>
+</head>
+<body>
+    <script src="./updater.js"></script>
+    <script>
+        let msgObj = getUpdateGitee("quanyec", "upTest", 1.1);
+        if (msgObj != null) {
+            alert("发现新版本：\n" + JSON.stringify(msgObj));
+        }
+    </script>
+</body>
+</html>
