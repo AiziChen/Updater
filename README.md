@@ -2,12 +2,11 @@
 A tool that use github or gitee to release latest software.
 ### Now Support  JavaScript and Java Languages.
 
-## How to use
-1. The Rules
+## The Rules
 
-(1) Must contain all the release-file and the release-notes.txt
+1. Must contain all the release-file and the release-notes.txt
 
-(2) The file rules is:
+2. The file rules is:
     release-file: `[file-name]-v[version-code].[suffix]`
 
     such as: `TestApp-v2.3.apk`
@@ -15,6 +14,8 @@ A tool that use github or gitee to release latest software.
     release-notes.txt: `[file-name]-v[version-code].txt`
 
     such as: `TestApp-Notes-v2.3.txt`
+
+## To use them
 1. In JavaScript
 ```javascript
     // import the updater.js file
@@ -32,6 +33,7 @@ A tool that use github or gitee to release latest software.
 ````
 2. In Java
 ```java
+    // need to import the `gson` library.
     UpdateMsg uMsg = Updater.getUpdate("aizichen", "upTest", 1.1);
     System.out.println(uMsg);
     uMsg = Updater.getUpdateGitee("quanyec", "upTest", 3.2);
