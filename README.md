@@ -5,6 +5,7 @@ A tool that use github or gitee to release latest software.
 ## How to use
 1. In JavaScript
 ```javascript
+    // import the updater.js file
     <script src="./updater.js"></script>
     <script>
       let msgObj1 = getUpdate("aizichen", "upTest", 1.1);
