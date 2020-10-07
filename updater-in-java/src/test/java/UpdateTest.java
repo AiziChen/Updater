@@ -1,10 +1,9 @@
-## Updater
-使用github来更新软件的工具。
+import org.coqur.updater.UpdaterForGitEE;
+import org.coqur.updater.UpdaterForGithub;
+import org.coqur.updater.record.UpdateInfo;
+import org.junit.jupiter.api.Test;
 
-## 使用方法
-> for Java
-
-```java
+public class UpdateTest {
 
     /**
      * github 更新的使用例子
@@ -38,5 +37,4 @@
             System.out.println("upgradeUrl: " + info.getUpgradeUrl());
         }
     }
-```
-
+}
