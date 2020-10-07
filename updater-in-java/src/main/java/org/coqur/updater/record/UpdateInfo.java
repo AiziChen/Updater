@@ -6,7 +6,7 @@ package org.coqur.updater.record;
  * @author Quanyec
  */
 public class UpdateInfo {
-    // version's information
+    // current version comments
     private String commentUrl;
     // destination's url
     private String upgradeUrl;
